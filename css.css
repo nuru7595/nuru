@@ -1,0 +1,265 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:sans-serif;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar
+{
+    background-color: black;
+}
+.navbar .brand-navbar img:hover
+{
+    opacity: 0.7;
+}
+.navbar ul
+{
+padding: 0px 30px 0px 0px;
+}
+.navbar ul li a{
+    color: white;
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar ul li a .fas{
+    padding-right:5px; 
+    padding-left:5px; 
+}
+.navbar ul li a:hover{
+    color: #15b000;
+}
+.navbar ul li.active > a {
+    color: #15b000;
+    font-weight: bold;
+    font-size: 12px;
+    border-left: 3px solid #15b000;
+    border-radius: 40px;
+}
+.iconStyle
+{
+    color: #15b000;
+}
+
+/*=====================================Slier============================================*/
+
+
+header .carousel-inner .item
+{
+    height: 100vh;
+}
+.carousel-caption
+{
+    padding-bottom: 130px;
+}
+.carousel-caption h1
+{
+    font-size: 70px;
+    font-weight: 1000;
+    text-shadow: 3px 3px #15b000;;
+    text-transform: uppercase;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+.carousel-caption p
+{
+    animation-delay: 1s;
+}
+
+.carousel-caption .btn
+{
+    animation-delay: 1s;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    animation-duration: 2s;
+}
+
+.carousel-control-prev {
+    width: 48px;
+    height: 48px;
+    top: auto;
+    bottom: 0;
+    font-size: 2rem;
+}
+.carousel-control-next {
+    width: 48px;
+    height: 48px;
+    top: auto;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+/*=====================================Slier============================================*/
+
+@media only screen and (max-width:480px)
+{
+    .carousel-caption
+    {
+        padding-bottom: 20px;
+    }
+    .carousel-caption h1
+    {
+        font-size: 20px;
+        font-weight: 1000;
+        text-shadow: 3px 3px #15b000;;
+        text-transform: uppercase;
+        animation-delay: 1s;
+        animation-duration: 2s;
+    }
+    .carousel-caption p
+    {
+        animation-delay: 1s;
+        font-size: 10px;
+    }
+    
+    .carousel-caption .btn
+    {
+        animation-delay: 1s;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        margin-top: 5px;
+        animation-duration: 2s;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+.carousel-item {
+    height:550px;
+}
+.image-grid-cover {
+    width: 100%;
+    background-size: cover;
+    min-height: 180px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    border-radius: 4px;
+}
+.image-grid-clickbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background: rgba(0,0,0,.45);
+}
+.cover-wrapper {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    z-index: 21;
+    position: relative;
+    top: 80px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+.paddingTB60 {padding:60px 0px 60px 0px;}
+.gray-bg {background: #F1F1F1 !important;}
+.about-title {}
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #AF0808; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:24px;}
+.about-title p {color: #7a7a7a;line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+.about-img {padding-left: 57px;}
+
+/* Social Icons */
+.about-icons {margin:48px 0px 48px 0px ;}
+.about-icons i{margin-right: 10px;padding: 0px; font-size:35px;color:#323232;box-shadow: 0 0 3px rgba(0, 0, 0, .2);}
+.about-icons li {margin:0px;padding:0;display:inline-block;}
+#social-fb:hover {color: #3B5998;transition:all .001s;}
+ #social-tw:hover {color: #4099FF;transition:all .001s;}
+ #social-gp:hover {color: #d34836;transition:all .001s;}
+ #social-em:hover {color: #f39c12;transition:all .001s;}
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+ section {
+     padding: 60px 0;
+ }
+ 
+ section .section-title {
+     text-align: center;
+     color: #007b5e;
+     margin-bottom: 50px;
+     text-transform: uppercase;
+ }
+ #footer {
+     background: #1358617e !important;
+ }
+ #footer h5{
+     padding-left: 10px;
+     border-left: 3px solid #eeeeee;
+     padding-bottom: 6px;
+     margin-bottom: 20px;
+     color:#ffffff;
+ }
+ #footer a {
+     color: #ffffff;
+     text-decoration: none !important;
+     background-color: transparent;
+     -webkit-text-decoration-skip: objects;
+ }
+ #footer ul.social li{
+     padding: 3px 0;
+ }
+ #footer ul.social li a i {
+     margin-right: 5px;
+     font-size:25px;
+     -webkit-transition: .5s all ease;
+     -moz-transition: .5s all ease;
+     transition: .5s all ease;
+ }
+ #footer ul.social li:hover a i {
+     font-size:30px;
+     margin-top:-10px;
+ }
+ #footer ul.social li a,
+ #footer ul.quick-links li a{
+     color:#ffffff;
+ }
+ #footer ul.social li a:hover{
+     color:#eeeeee;
+ }
+ #footer ul.quick-links li{
+     padding: 3px 0;
+     -webkit-transition: .5s all ease;
+     -moz-transition: .5s all ease;
+     transition: .5s all ease;
+ }
+ #footer ul.quick-links li:hover{
+     padding: 3px 0;
+     margin-left:5px;
+     font-weight:700;
+ }
+ #footer ul.quick-links li a i{
+     margin-right: 5px;
+ }
+ #footer ul.quick-links li:hover a i {
+     font-weight: 700;
+ }
+ 
+ @media (max-width:767px){
+     #footer h5 {
+     padding-left: 0;
+     border-left: transparent;
+     padding-bottom: 0px;
+     margin-bottom: 10px;
+ }
+ } 
